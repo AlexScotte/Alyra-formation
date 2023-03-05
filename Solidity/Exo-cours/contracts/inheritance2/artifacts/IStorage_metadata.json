@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exoCours/exoInheritance2/inheritance.sol": "IStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exoCours/exoInheritance2/inheritance.sol": {
+			"keccak256": "0x23205a10cf1e0c5cd892a1cd28e210340ab80cc266ee8e88ccd2c89d6d24d1b1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cc386f9291ec173df074eae8169dda952cb8507f3b9f29ec4f0400cd5ff28e63",
+				"dweb:/ipfs/QmXXiG6QZortRk2AGfxS4ofK31BWLcYJN6YVXKWYRyZnms"
+			]
+		}
+	},
+	"version": 1
+}
